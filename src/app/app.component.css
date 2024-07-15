@@ -1,0 +1,467 @@
+/* body {
+    font-family:  Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+.section {
+    margin: 20px 0;
+}
+.section-header {
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+.section-header-yellow {
+    background-color: #ffcc00;
+}
+.section-header-blue {
+    background-color: #00bfff;
+}
+.section-header-purple {
+    background-color: #800080;
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    position: relative;
+}
+.card h3 {
+    margin-top: 0;
+}
+.card p {
+    margin: 5px 0;
+}
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+.status-green {
+    background-color: #28a745;
+}
+.status-red {
+    background-color: #dc3545;
+}
+.horizontal-line {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} */
+
+/* 
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-header {
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.section-header-yellow {
+    background-color: #ffcc00;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header-blue {
+    background-color: #00bfff;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header-purple {
+    background-color: #6d0e6d;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header:hover {
+    transform: scale(1.05);
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.status-green {
+    background-color: #21cc49;
+}
+
+.status-red {
+    background-color: #dc3545;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} */
+
+
+
+/* Additional CSS for the partition line */
+/* .card-heading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #000; 
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-header {
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.section-header-yellow {
+    background-color: #ffcc00;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header-blue {
+    background-color: #00bfff;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header-purple {
+    background-color: #800080;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header:hover {
+    transform: scale(1.05);
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-heading {
+    margin-top: 0;
+    position: relative;
+}
+
+.card-heading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 2px solid #000; 
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.status-green {
+    background-color: #28a745;
+}
+
+.status-red {
+    background-color: #dc3545;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+} */
+
+/* pre final */
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-header {
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-header-yellow {
+    background-color: #ffcc00;
+}
+
+.section-header-blue {
+    background-color: #00bfff;
+}
+
+.section-header-purple {
+    background-color: #800080;
+}
+
+.section-header:hover {
+    transform: scale(1.05);
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card-heading {
+    margin-top: 0;
+    position: relative;
+}
+
+.card-heading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 4px solid #000; 
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.status-green {
+    background-color: #21cc49;
+}
+
+.status-red {
+    background-color: #dc3545;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.card-content > div {
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.card-content > div:first-child {
+    border-left: none;
+}
+
+.card-content .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+} 

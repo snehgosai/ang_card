@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+/* Reset styles */
+html, body, div, span, app, h1, h2, h3, p, a, img, button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.section-header-yellow {
+    background-color: #ffc107;
+}
+
+.section-header-blue {
+    background-color: #007bff;
+}
+
+.section-header-purple {
+    background-color: #6f42c1;
+}
+
+.section-header-green {
+    background-color: #28a745;
+}
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 calc(25% - 20px);
+    min-width: 250px;
+}
+
+.horizontal-line {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-green {
+    color: #28a745;
+  
+}
